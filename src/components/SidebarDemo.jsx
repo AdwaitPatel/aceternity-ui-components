@@ -22,21 +22,21 @@ export function SidebarDemo() {
     },
     {
       label: "Profile",
-      href: "#",
+      href: "/profile",
       icon: (
         <IconUserBolt className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
     },
     {
       label: "Settings",
-      href: "#",
+      href: "/settings",
       icon: (
         <IconSettings className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
     },
     {
       label: "Logout",
-      href: "#",
+      href: "/",
       icon: (
         <IconArrowLeft className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
@@ -65,7 +65,7 @@ export function SidebarDemo() {
             <SidebarLink
               link={{
                 label: "Adwait Patel",
-                href: "#",
+                href: "/profile",
                 icon: (
                   <img
                     src="https://assets.aceternity.com/manu.png"
